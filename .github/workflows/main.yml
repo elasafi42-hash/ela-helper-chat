@@ -1,0 +1,41 @@
+[app]
+# اسم التطبيق
+title = تطبيقي الذكي
+
+# معرف التطبيق (يجب أن يكون فريداً)
+package.name = myapp
+package.domain = com.example
+
+# الإصدار
+version = 1.0
+
+# المصدر
+source.dir = .
+
+# ملف البدء الرئيسي
+source.main = main.py
+
+# المكتبات المطلوبة
+requirements = python3, kivy==2.1.0
+
+# إعدادات أندرويد
+android.arch = armeabi-v7a
+android.api = 30
+android.minapi = 21
+android.sdk = 24
+android.ndk = 19c
+
+# السماحيات (للتطبيقات البسيطة)
+android.permissions = INTERNET
+
+# أيقونة التطبيق
+# icon.filename = %(source.dir)s/icon.png
+
+# الشاشة التمهيدية
+# presplash.filename = %(source.dir)s/presplash.png
+
+# التوجيه
+orientation = portrait
+
+# النوافذ الكاملة
+fullscreen = 0
